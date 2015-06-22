@@ -19,8 +19,8 @@ std::string join(const std::vector<std::string>& elements, const char* separator
     }
 }
 
+std::random_device rd;
 const int dice(const int max) {
-    std::random_device rd;
     std::default_random_engine e1(rd());
     std::uniform_int_distribution<int> uniform_dist(0, max - 1);
 
