@@ -42,6 +42,11 @@ int main(int argc, char** argv) {
         }
     } catch (std::runtime_error) {
         wordlist = list::list_en;
+        if (auto e = std::getenv("LANG")) {
+            if (std::string(e).substr(0, 2) == "de") {
+                wordlist = list::list_de;
+            }
+        }
     }
 
 
