@@ -3,7 +3,7 @@
  * List provided by Arnold G. Reinhold & Alan Beale under the terms of the Creative Commons CC-BY 3.0 license.
  */
 
-#include "list_de.hpp"
+#include "dwlist.hpp"
 
 const std::vector<std::string> list::list_en = {
     "a"

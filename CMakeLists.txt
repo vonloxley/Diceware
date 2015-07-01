@@ -1,6 +1,6 @@
 cmake_minimum_required (VERSION 2.8.11)
 project (diceware)
 if(UNIX)
-	set(CMAKE_CXX_FLAGS "-std=c++11 -O3")
+	set(CMAKE_CXX_FLAGS "-std=c++11 -O2")
 endif()
-add_executable (diceware main.cpp list_de.cpp)
+add_executable (diceware main.cpp dwlist.cpp)

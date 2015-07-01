@@ -14,7 +14,7 @@
         <in>feature_tests.c</in>
         <in>feature_tests.cxx</in>
       </df>
-      <in>list_de.cpp</in>
+      <in>dwlist.cpp</in>
       <in>main.cpp</in>
     </df>
     <logicalFolder name="ExternalFiles"
@@ -66,7 +66,7 @@
       </item>
       <item path="CMakeFiles/feature_tests.cxx" ex="false" tool="1" flavor2="0">
       </item>
-      <item path="list_de.cpp" ex="false" tool="1" flavor2="0">
+      <item path="dwlist.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
